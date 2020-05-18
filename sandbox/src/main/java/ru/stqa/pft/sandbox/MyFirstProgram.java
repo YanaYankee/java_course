@@ -20,17 +20,18 @@ package ru.stqa.pft.sandbox;
 
 
 
-			Point p1 = new Point(1,1);
-			Point p2 = new Point(2,2);
+//			Point p1 = new Point();
+//			Point p2 = new Point();
 
-			public static double distance (Point p1, Point p2) {
-				double d = Math.sqrt(Math.pow(p1.x1 - p2.x1, 2) + Math.pow(p1.y1 - p2.y1, 2));
-				return d;
-			}
 
-			System.out.println(
-					"Расстойние между точкой p1 с координатами (" + p1.x1 + ", " + p1.y1 +
-							") и ("  + p2.x1 + ", " + p2.y1 + ") равно " + distance(p1,p2));
+//			public static double distance(Point p1, Point p2) {
+//				double d = Math.sqrt(Math.pow(p1.x1 - p2.x1, 2) + Math.pow(p1.y1 - p2.y1, 2));
+//				return d;
+//			}
+//
+//			System.out.println(
+//					"Расстойние между точкой p1 с координатами (" + p1.x1 + ", " + p1.y1 +
+//							") и ("  + p2.x1 + ", " + p2.y1 + ") равно " + distance(p1,p2));
 
 
 
