@@ -1,0 +1,14 @@
+apply plugin: 'java'
+
+
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'org.testng:testng:7.1.0'
+    implementation 'com.applitools:eyes-selenium-java3:3.167.0'
+//    implementation 'com.applitools:eyes-connectivity-java3-jboss:3.167.0'
+}
+
